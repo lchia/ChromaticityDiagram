@@ -54,9 +54,10 @@ def process(frame, filename):
          })
 
     colour.plotting.plot_RGB_chromaticities_in_chromaticity_diagram_CIE1931(
-        RGB, 'ITU-R BT.709',
+        RGB, 'ITU-R BT.2020',
         colourspaces=['ACEScg', 'S-Gamut', 'Pointer Gamut'], 
         **settings)
+        #RGB, 'ITU-R BT.709',
 
  
 def ChromaticityDiagram(video_file):
