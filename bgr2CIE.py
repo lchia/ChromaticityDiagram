@@ -92,8 +92,8 @@ def main():
  
  
     frame_idx = 0
-    start_idx = 20
-    stop_idx = 23
+    start_idx = 10
+    stop_idx = 60
     while 1:
         if not cap1.isOpened():
             print('cannot open video %s\n'%(video_file))
